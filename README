@@ -26,4 +26,6 @@ GPU ID	NUMA ID	Type	Init(Mb/s)	Triad(Mb/s)
 0	8	slowest	8493.785391	1614497001.799529
 1	0	slowest	5230.729496	1022481308.627978
 0	0	slowest	5217.704504	820399292.673978
- 
+
+This program runs for all compute devices (Intel, AMD, IBM) but not ARM. (TODO: Add support form ARM)
+This program classifies only Nvidia GPUs. (TODO: Add support for Radeon and Intel GPUs)
